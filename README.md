@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stopwatch with 3D Background</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- 3D Background Canvas -->
+  <div id="background"></div>
+
+  <!-- Stopwatch Content -->
+  <div class="stopwatch-container">
+    <h1>Stopwatch</h1>
+    <div class="display">
+      <span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span>:<span id="milliseconds">00</span>
+    </div>
+    <div class="controls">
+      <button id="start-btn">Start</button>
+      <button id="stop-btn">Stop</button>
+      <button id="reset-btn">Reset</button>
+    </div>
+  </div>
+
+  <!-- Three.js Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
